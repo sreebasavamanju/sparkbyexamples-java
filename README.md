@@ -2,7 +2,7 @@
 https://sparkbyexamples.com/ -  Java implementation
 
 
-After Java 17 , we need to pass below arguments to java commad when running the java main class, otherwise error will throw because of illegalreflection access 
+After Java 17 , we need to pass below arguments to java commad when running the java main class, otherwise error will throw because of illegal reflective access 
 ```
 --add-opens=java.base/java.lang=ALL-UNNAMED 
 --add-opens=java.base/java.lang.invoke=ALL-UNNAMED 
